@@ -1,0 +1,26 @@
+# /etc/conf.d/testcoin2d: config file for /etc/init.d/testcoin2d
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/testcoin2/testcoin2.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/testcoin2d"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/testcoin2d.pid"
+
+# Where to write testcoin2d data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/testcoin2d"
+
+# User and group to own testcoin2d process
+#BITCOIND_USER="testcoin2"
+#BITCOIND_GROUP="testcoin2"
+
+# Path to testcoin2d executable
+#BITCOIND_BIN="/usr/bin/testcoin2d"
+
+# Nice value to run testcoin2d under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

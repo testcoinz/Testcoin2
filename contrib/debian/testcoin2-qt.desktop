@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Testcoin2
+Comment=Testcoin2 P2P Cryptocurrency
+Comment[fr]=Testcoin2, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Testcoin2, eşten eşe kriptografik sanal para birimi
+Exec=testcoin2-qt %u
+Terminal=false
+Type=Application
+Icon=testcoin2128
+MimeType=x-scheme-handler/testcoin2;
+Categories=Office;Finance;
